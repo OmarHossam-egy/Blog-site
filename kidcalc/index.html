@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+</head>
+<body class="theme1">
+    <header>
+        <img class="logo" src="assets/images/logo.png" alt="Blog logo" >
+        <a href="index.html"><h2>kidCalc</h2></a>
+        <img class="icon" src="assets/images/search.png" alt="search icon">
+    </header>
+    <section class="form-sec">
+        <form onsubmit="return changeNameTheme()">
+            <label>Write Your Name: </label>
+            <input type= "text" name="Name" id="name">
+            <label>Write Your Age: </label>
+            <input type= "text" name="Age" id="">
+            <label>Choose your Theme</label>
+            <select name="" id="theme">
+                <option value="theme1">Theme1</option>
+                <option value="theme2">Theme2</option>
+                <option value="theme3">Theme3</option>
+            </select>
+            </div>
+            <input type= "submit" name="submit" id="">
+        </form>
+    </section>
+    <section class="kidCalc">
+        <h2>kidCalc Section</h2>
+        <div class="display">25 + 10</div>
+        <div class="display2">The Answer is : 35</div>
+        <div class="number-buttons">
+            <button type="button">0</button>
+            <button type="button">1</button>
+            <button type="button">2</button>
+            <button type="button">3</button>
+            <button type="button">4</button>
+            <button type="button">5</button>
+            <button type="button">6</button>
+            <button type="button">7</button>
+            <button type="button">8</button>
+            <button type="button">+</button>
+            <button type="button">9</button>
+            <button type="button">-</button>
+            <button type="button">*</button>
+            <button type="button">=</button>
+            <button type="button">/</button>  
+        </div>
+    </section>
+    <section class="information-bar">
+        <h2>Welcome <span id="user">User</span></h2>
+        <h3 class="counter-text">Your Score is: </h3>
+        <h3 class="score" style="color:#219150;font-weight: 700;">14</h3>
+    </section>
+
+    <script src="main.js"></script>    
+</body>
+</html>

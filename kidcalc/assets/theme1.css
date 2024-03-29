@@ -1,0 +1,135 @@
+.theme1 header{
+    padding: 30px ;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: var(--white);
+}
+
+.theme1 .logo{
+    height: 50px;
+}
+
+.theme1 header .icon{
+    height: 30px;
+}
+.theme1 header a{
+    color: var(--black  );
+    text-decoration: none;
+}
+
+
+.theme1 .form-sec {
+    background-color: var(--green);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.theme1 form{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    color: var(--black);
+   
+}
+
+.theme1 form input{
+    margin: 10px 0;
+    width: 500px;
+    height: 23px;
+    border: none;
+    border-bottom: 5px solid var(--blue);
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.theme1 select{
+    margin: 10px 0px;
+    width: 200px;
+    background: none;
+    border: none;
+    border-bottom: var(--white) solid 5px ;
+    color: var(--black);
+}
+.theme1 option:hover{background-color: var(--blue);color: var(--black);}
+
+.theme1 .kidCalc{
+    background-color: var(--blue);
+    height: 80vh;
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center; 
+}
+.theme1 .kidCalc h2 {
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    color: var(--black);
+}
+
+.theme1 .display {
+    margin-top: 20px;
+    width: 300px;
+    height: 20px;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 20px;
+    text-align: left; 
+    padding: 10px;
+}
+.theme1 .display2 {
+    margin-top: 20px;
+    width: 300px;
+    height: 20px;
+    background-color: var(--green2);
+    color: var(--white);
+    font-size: 20px;
+    text-align: left; 
+    padding: 10px;
+  }
+
+.theme1 .number-buttons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px 50px 50px;
+    width: 300px;
+    height: 100px;
+    margin-top: 30px;
+    
+}
+.theme1 .number-buttons button {
+    margin: 5px 0px;
+    margin: 0 20px;
+    padding: 10px;
+    width: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--blue);
+    color: var(--white);
+    cursor: pointer;
+    
+}
+
+.theme1 .number-buttons button:hover {
+    background-color: var(--violet);
+}
+
+.theme1 .information-bar{
+    height: 300px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.theme1 .information-bar h2,h3{
+    margin-top: 20px;
+    font-family: "Roboto Slab", serif;
+}
+.theme1 .information-bar h3{
+    color: var(--red);
+    font-size: 20px;
+}

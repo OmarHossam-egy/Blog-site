@@ -1,0 +1,25 @@
+@import url(post.css);
+@import url(home.css);
+
+:root{
+    --green : #219150;
+    --green2 :#22d66d;
+    --black : #161917;
+    --white : #F4F9FD;
+    --yellow :#d6b109;
+    --blue :  #4F80FF;
+    --violet: #8154EF;
+    --red :   #da3333;
+}
+
+*{
+    font-family: "Almarai", sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+
+::selection{
+    background-color: var(--green2);
+    color: var(--black);        
+}

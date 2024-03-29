@@ -1,0 +1,79 @@
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.post{
+    width: 850px;
+    height: 750px;
+    margin: 50px 100px;
+    color: var(--white);
+    text-align: left;
+    font-size: 16px;
+}
+.post h2{
+    font-size: 30px;
+    color: var(--green2);
+    font-family: "Roboto Slab", serif;
+}
+.post .p1{
+    margin-top:30px ;
+
+    
+}
+
+.post img{
+    width: 850px;
+    height: 500px;
+    margin-top:30px ;
+}
+
+.post .olist{
+    margin-top: 30px;
+    
+}
+
+.olist li{
+    padding: 20px 0px;
+}
+.olist .point{
+    font-size: 18px;
+    padding: 3px;
+}
+
+
+.sidebar{
+    display: flex;
+    margin: 50px 0px;
+    justify-content: center;
+    color: var(--white);
+}
+
+.sidebar ul{
+    list-style: none;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.sidebar ul li{
+   margin-top: 20px;
+}
+.sidebar ul a{
+    text-decoration: none;
+    color: var(--green2);
+}
+.sidebar button{
+    color: var(--green);
+    font-weight: 700;
+    border-bottom: 2px solid var(--white);
+    background-color: var(--white);
+    width: 160px;
+    height: 40px;
+    border: none;
+    border-radius: 18px;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: var(--green);
+    color: var(--white);
+    transition: 0.5s
+}

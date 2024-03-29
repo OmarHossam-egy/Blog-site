@@ -1,0 +1,22 @@
+@import url(theme1.css);
+@import url(theme2.css);
+@import url(theme3.css);
+
+
+:root{
+    --green : #219150;
+    --green2 :#22d66d;
+    --greenD :#135e3b;
+    --black : #161917;
+    --white : #F4F9FD;
+    --yellow :#d6b109;
+    --blue :  #4F80FF;
+    --blueD : #122350;
+    --violet: #8154EF;
+    --red :   #da3333;
+}
+*{
+    font-family: "Almarai", sans-serif;
+    padding: 0;
+    margin: 0;
+}
