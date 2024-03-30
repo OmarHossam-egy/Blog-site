@@ -20,3 +20,35 @@
     padding: 0;
     margin: 0;
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    background-color: var(--black);
+    width: 100%;
+    justify-content: center;
+   
+    
+}
+footer img{
+    margin: 15px 0px;
+    width: 70px;
+}
+footer h2{
+    margin: 20px 0px;
+    background-color: #22d66dce;
+    padding: 5px;
+}
+
+.social{
+    margin-top: 10px ;
+    margin-bottom: 20px;
+    display: flex;
+    color: var(--white);
+}
+.social i{
+    margin: 0px 10px;
+    font-size: 22px;
+}
