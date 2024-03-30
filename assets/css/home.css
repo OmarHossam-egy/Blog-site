@@ -256,7 +256,18 @@ footer h2{
 
 @media (max-width: 600px) {
    
-
+    header{
+        padding: 20px ;
+    }
+    
+    .logo{
+        height: 35px;
+    }
+    
+    header .icon{
+        height: 30px;
+    }
+    
 
 
 
