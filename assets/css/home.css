@@ -241,7 +241,7 @@ footer{
     background-color: var(--white);
     width: 100%;
     justify-content: center;
-   
+   background: url(assets/images/BACKGROUND-FOOTER-3.jpg);
     
 }
 footer img{
@@ -253,6 +253,17 @@ footer h2{
     background-color: #22d66dce;
     padding: 5px;
 }
+
+.social{
+    margin-top: 10px ;
+    margin-bottom: 20px;
+    display: flex;
+}
+.social i{
+    margin: 0px 10px;
+    font-size: 22px;
+}
+
 
 @media (max-width: 600px) {
    
@@ -295,55 +306,22 @@ footer h2{
         width: 370px;
         height: 250px;
     }
-
     .post4{
-        background-color: var(--white);
-        width: 500px;
+        width: 370px;
         height: 250px;
-        box-shadow: 7px 0px var(--blue)
     }
     
-    .post4 .tag {
-        color: var(--yellow);
-        font-weight: 600;
-        font-size: 14px;
-        padding: 5px 0;
+    .social{
+        margin-top: 10px ;
+        margin-bottom: 20px;
+        display: flex;
     }
-    
-    .post4 .date{
-        color: var(--black);
-        font-weight: 200;
-        font-size: 14px;
+    .social i{
+        margin: 0px 10px;
+        font-size: 18px;
     }
-    .post4 span{
-        color: var(--green);
-        font-weight: 400;
-        margin-left: 10px;
-        font-size: 14px;
+    footer img{
+        width: 50px;
     }
-    .post4 h3{
-        font-size: 14px;
-        margin: 10px 0;
-        font-weight: 700;
-    }
-    
-    .post4 a{
-        text-decoration: none;
-        color: var(--green);
-        font-weight: 500;
-        margin-top:  0px;
-        border-bottom: 2px solid var(--green);
-        padding: 10px;
-    }
-    
-    .post4 a:hover{
-        color: var(--white);
-        background-color: var(--green);
-        transition: 0.5s ease;
-    }
-
-
-
-
 
     }
