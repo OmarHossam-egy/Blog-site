@@ -265,12 +265,82 @@ footer h2{
     }
     
     header .icon{
-        height: 30px;
+        height: 25px;
     }
     
+    .posts{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 50px;
+        margin: 30px 30px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .posts .contant h2{
+        color: var(--green);
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    .post1{
+        width: 370px;
+        height: 250px;
+    }
+    .post2{
+        width: 370px;
+        height: 250px;
+    }
+    .post3{
+        width: 370px;
+        height: 250px;
+    }
 
-
-
+    .post4{
+        background-color: var(--white);
+        width: 500px;
+        height: 250px;
+        box-shadow: 7px 0px var(--blue)
+    }
+    
+    .post4 .tag {
+        color: var(--yellow);
+        font-weight: 600;
+        font-size: 14px;
+        padding: 5px 0;
+    }
+    
+    .post4 .date{
+        color: var(--black);
+        font-weight: 200;
+        font-size: 14px;
+    }
+    .post4 span{
+        color: var(--green);
+        font-weight: 400;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .post4 h3{
+        font-size: 14px;
+        margin: 10px 0;
+        font-weight: 700;
+    }
+    
+    .post4 a{
+        text-decoration: none;
+        color: var(--green);
+        font-weight: 500;
+        margin-top:  0px;
+        border-bottom: 2px solid var(--green);
+        padding: 10px;
+    }
+    
+    .post4 a:hover{
+        color: var(--white);
+        background-color: var(--green);
+        transition: 0.5s ease;
+    }
 
 
 
