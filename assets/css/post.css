@@ -10,15 +10,30 @@ section{
 
 
 .author-image{
-    width: 50px;
+    width: 70px;
     border-radius: 50px;
     margin: 10px;
     
     
 }
 
+.bio{
+    position: relative;
+    top: 20px;
+}
 
+.bio h4{
+    border-bottom: 2px solid var(--blue);
+    margin-bottom: 5px;
+}
+.bio .about{
+    letter-spacing: 1.8px;
+    
+}
 
+.author-social{
+    margin: 0;  
+}
 
 
 .post{
