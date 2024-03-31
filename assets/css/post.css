@@ -3,9 +3,26 @@ section{
     grid-template-columns: 1fr 1fr;
     
 }
+.author-imgName{
+    display: flex;
+    align-items: center;
+}
+
+
+.author-image{
+    width: 50px;
+    border-radius: 50px;
+    margin: 10px;
+    
+    
+}
+
+
+
+
+
 .post{
     width: 100%;
-    
     margin: 50px 100px;
     color: var(--white);
     text-align: left;
@@ -22,7 +39,7 @@ section{
 
 }
 
-.post img{
+.post .thumbnail{
     width: 100%;
     height: 500px;
     margin-top:30px ;
@@ -147,7 +164,7 @@ footer h2{
         margin-top:30px ;
     }
     
-    .post img{
+    .post .thumbnail{
         width: 100%;
         height: 250px;
         margin-top:30px ;
@@ -180,9 +197,3 @@ footer h2{
         width: 70px;
     }
 }
-
-
-
-/* @media (min-width: 909px) and (max-width :1075px) {
-
-} */
