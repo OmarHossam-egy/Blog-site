@@ -3,12 +3,13 @@ section{
     grid-template-columns: 1fr 1fr;
 }
 .post{
-    width: 850px;
+    width: 100%;
     height: 750px;
     margin: 50px 100px;
     color: var(--white);
     text-align: left;
     font-size: 16px;
+    overflow: hidden;
 }
 .post h2{
     font-size: 30px;
@@ -43,9 +44,10 @@ section{
 
 .sidebar{
     display: flex;
-    margin: 50px 0px;
     justify-content: center;
     color: var(--white);
+    width: 100%;
+    height: 200px;
 }
 
 .sidebar ul{
@@ -77,3 +79,63 @@ button:hover{
     color: var(--white);
     transition: 0.5s
 }
+
+@media (max-width: 900px) {
+    
+    section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .sidebar{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        color: var(--white);
+        width: 100%;
+        height: 200px;
+        margin-left: 30px;
+    }
+
+    section{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        
+    }
+    .post{
+        width: 350px;
+        height: 100%;
+        margin: 20px 35px;
+        color: var(--white);
+        text-align: left;
+        font-size: 14px;
+        overflow: hidden;
+    }
+    .post h2{
+        font-size: 25px;
+        color: var(--green2);
+        font-family: "Roboto Slab", serif;
+    }
+    .post .p1{
+        margin-top:30px ;
+        
+        
+    }
+    
+    .post img{
+        width: 100%;
+        height: 250px;
+        margin-top:30px ;
+    }
+
+}
+
+@media (min-width: 672px) and (max-width: 900px) {
+
+}
+
+
+
+/* @media (min-width: 909px) and (max-width :1075px) {
+
+} */
