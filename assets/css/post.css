@@ -23,7 +23,7 @@ section{
 }
 
 .post img{
-    width: 850px;
+    width: 100%;
     height: 500px;
     margin-top:30px ;
 }
