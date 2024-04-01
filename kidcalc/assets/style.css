@@ -52,3 +52,38 @@ footer h2{
     margin: 0px 10px;
     font-size: 22px;
 }
+
+@media (max-width: 671px){
+    
+    .theme1 form input{
+        margin: 10px 0;
+        width: 270px;
+        height: 23px;
+        border: none;
+        border-bottom: 5px solid var(--blue);
+        font-family: "Roboto Slab", serif;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .theme2 form input{
+        margin: 10px 0;
+        width: 270px;
+        height: 23px;
+        border: none;
+        border-bottom: 5px solid var(--blue);
+        font-family: "Roboto Slab", serif;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .theme3 form input{
+        margin: 10px 0;
+        width: 270px;
+        height: 23px;
+        border: none;
+        border-bottom: 5px solid var(--blue);
+        font-family: "Roboto Slab", serif;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+}
