@@ -133,3 +133,47 @@
     color: var(--red);
     font-size: 20px;
 }
+@media (max-width: 671){
+    *{
+        background-color: #122350;
+    }
+    .form-sec {
+        background-color: var(--green);
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        color: var(--black);
+       
+    }
+    
+    form input{
+        margin: 10px 0;
+        width: 100px;
+        height: 23px;
+        border: none;
+        border-bottom: 5px solid var(--blue);
+        font-family: "Roboto Slab", serif;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .theme1 select{
+        margin: 10px 0px;
+        width: 100px;
+        background: none;
+        border: none;
+        border-bottom: var(--white) solid 5px ;
+        color: var(--black);
+    }
+    
+    
+    
+}
+@media (min-width: 909px) and (max-width :1075px) {
+}
