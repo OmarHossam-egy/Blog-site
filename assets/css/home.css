@@ -1,14 +1,14 @@
 @import url(style.css);
-body{
-    background-color: var(--black);
-}
 
-header{
+body{
+    background-color: var(--green);
+}
+header{ 
     padding: 30px ;
     display: flex;
     justify-content: space-between;
     text-align: center;
-    color: var(--white);
+    background-color: var(--black);
 }
 
 .logo{
@@ -23,222 +23,93 @@ header a{
     text-decoration: none;
 }
 
-.posts{
+.post-countainer{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
-    margin-left: 100px;
-    margin-top: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-left: 20px;
+    margin-top: 50px;
     margin-bottom: 50px;
+    justify-content: center;
 }
 
-.posts .contant{
+.post-countainer .contant{
     padding: 20px;
     color: var(--black);
 }
 
 
-.posts .contant h2{
+.post-countainer .contant h2{
     color: var(--green);
     font-weight: 700;
-    font-family: "Roboto Slab", serif;
+}
+.author{
+    display: flex;
+    align-items: center; 
 }
 
-.post1{
-    background-color: var(--white);
-    width: 500px;
-    height: 250px;
-    box-shadow: 7px 0px var(--green2)
-}
-
-.post1 .tag {
-    color: var(--green2);
-    font-weight: 600;
-    font-size: 14px;
-    padding: 5px 0;
-}
-
-.post1 .date{
-    color: var(--black);
-    font-weight: 200;
-    font-size: 14px;
-}
-.post1 span{
-    color: var(--green);
-    font-weight: 400;
-    margin-left: 10px;
-    font-size: 14px;
-}
-.post1 h3{
-    font-size: 14px;
-    margin: 20px 0;
-    font-weight: 700;
-}
-
-.post1 a{
-    text-decoration: none;
-    color: var(--green);
-    font-weight: 500;
-    margin-top:  60px;
-    border-bottom: 2px solid var(--green);
-    padding: 10px;
-}
-
-.post1 a:hover{
-    color: var(--white);
-    background-color: var(--green);
-    transition: 0.5s ease;
+.author-image{
+    width: 35px;
+    border-radius: 50px;
+    border: var(--yellow) solid 2px;
     
 }
-
-
-.post2{
-    
+.posts{
     background-color: var(--white);
-    width: 500px;
-    height: 250px;
-    box-shadow: 7px 0px var(--yellow)
+    width: 384px;
+    height: 522px;
+    box-shadow: 7px 7px var(--black);
+    border-radius: 20px;
 }
+.posts h2{
+    font-size: 20px;
+    
+}
+.posts a{text-decoration: none;}
 
-.post2 .tag {
+.posts h2:hover{
     color: var(--yellow);
-    font-weight: 600;
-    font-size: 14px;
-    padding: 5px 0;
+    cursor: pointer;
 }
 
-.post2 .date{
+.posts .thumbnail{
+    width: 100%;
+    border-radius: 12px 10px 15px 12px;
+}
+.posts .tag {
     color: var(--black);
-    font-weight: 200;
-    font-size: 14px;
-}
-.post2 span{
-    color: var(--green);
-    font-weight: 400;
-    margin-left: 10px;
-    font-size: 14px;
-}
-.post2 h3{
-    font-size: 14px;
-    margin: 15px 0;
-    font-weight: 700;
-}
-
-.post2 a{
-    text-decoration: none;
-    color: var(--green);
-    font-weight: 500;
-    margin-top:  50px;
-    border-bottom: 2px solid var(--green);
-    padding: 10px;
-}
-
-.post2 a:hover{
-    color: var(--white);
-    background-color: var(--green);
-    transition: 0.5s ease;
-    
-}
-
-
-.post3{
-    background-color: var(--white);
-    width: 500px;
-    height: 250px;
-    box-shadow: 7px 0px var(--violet)
-}
-
-.post3 .tag {
-    color: var(--violet);
     font-weight: 600;
-    font-size: 14px;
-    padding: 5px 0;
-}
-
-.post3 .date{
-    color: var(--black);
-    font-weight: 200;
-    font-size: 14px;
-}
-.post3 span{
-    color: var(--green);
-    font-weight: 400;
-    margin-left: 10px;
-    font-size: 14px;
-}
-.post3 h3{
-    font-size: 14px;
-    margin: 12px 0;
-    font-weight: 700;
-}
-
-.post3 a{
-    text-decoration: none;
-    color: var(--green);
-    font-weight: 500;
-    margin-top:  60px;
-    border-bottom: 2px solid var(--green);
-    padding: 10px;
-}
-
-.post3 a:hover{
-    color: var(--white);
-    background-color: var(--green);
-    transition: 0.5s ease;
-}
-
-.post4{
-    background-color: var(--white);
-    width: 500px;
-    height: 250px;
-    box-shadow: 7px 0px var(--blue)
-}
-
-.post4 .tag {
-    color: var(--yellow);
-    font-weight: 600;
-    font-size: 14px;
-    padding: 5px 0;
-}
-
-.post4 .date{
-    color: var(--black);
-    font-weight: 200;
-    font-size: 14px;
-}
-.post4 span{
-    color: var(--green);
-    font-weight: 400;
-    margin-left: 10px;
-    font-size: 14px;
-}
-.post4 h3{
     font-size: 14px;
     margin: 10px 0;
-    font-weight: 700;
+    border-radius: 5px;
+    padding: 5px 0;
+    width: 130px;
+    text-align: center;
+    background-color: var(--yellow);
 }
 
-.post4 a{
-    text-decoration: none;
-    color: var(--green);
+.posts .date{
+    color: var(--black);
     font-weight: 500;
-    margin-top:  0px;
-    border-bottom: 2px solid var(--green);
-    padding: 10px;
+    font-size: 14px;
+    margin: 3px 0;
 }
 
-.post4 a:hover{
-    color: var(--white);
-    background-color: var(--green);
-    transition: 0.5s ease;
-    
+.posts h3{
+    font-size: 14px;
+    margin: 8px 0;
+    font-weight: 700;
+    color: var(--gray);
 }
+
+
+
 
 footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--white);
+    background-color: var(--black);
     
     justify-content: center;
    
@@ -262,10 +133,11 @@ footer h2{
 .social i{
     margin: 0px 10px;
     font-size: 22px;
+    color: var(--white);
 }
 
 
-@media (max-width: 671px) {
+@media (max-width: 600px) {
    
     header{
         padding: 20px ;
@@ -279,37 +151,14 @@ footer h2{
         height: 25px;
     }
     
-    .posts{
+    .post-countainer{
         display: grid;
         grid-template-columns: 1fr ;
         gap: 50px;
-        margin: 30px 30px;
-        margin-top: 30px;
-        margin-bottom: 50px;
+       margin: 30px 50px;
     }
     
-    .posts .contant h2{
-        color: var(--green);
-        font-weight: 700;
-        font-size: 20px;
-    }
     
-    .post1{
-        width: 370px;
-        height: 250px;
-    }
-    .post2{
-        width: 370px;
-        height: 250px;
-    }
-    .post3{
-        width: 370px;
-        height: 250px;
-    }
-    .post4{
-        width: 370px;
-        height: 250px;
-    }
     
     .social{
         margin-top: 10px ;
@@ -325,82 +174,50 @@ footer h2{
     }
 
 }
-    @media (min-width: 672px) and (max-width: 900px) {
-   
-
+    @media (min-width: 601px) and (max-width: 900px) {
+        header{
+            padding: 20px ;
+        }
+        
+        .logo{
+            height: 35px;
+        }
+        
+        header .icon{
+            height: 25px;
+        }
+        
+        .post-countainer{
+            display: grid;
+            grid-template-columns: 1fr ;
+            gap: 50px;
+            margin: 30px 150px;
+        }
+        
+        
+        
+        .social{
+            margin-top: 10px ;
+            margin-bottom: 20px;
+            display: flex;
+        }
+        .social i{
+            margin: 0px 10px;
+            font-size: 18px;
+        }
+        footer img{
+            width: 50px;
+        }
     
-    .logo{
-        height: 40px;
-    }
-    
-    header .icon{
-        height: 30px;
-    }
-    
-    .posts{
-      
-        grid-template-columns: 1fr ;
-        margin: 30px 70px;
-
-    }
-    .post1{
-        width: 520px;
-        height: 250px;
-    }
-    .post2{
-        width: 520px;
-        height: 250px;
-    }
-    .post3{
-        width: 520px;
-        height: 250px;
-    }
-    .post4{
-        width: 520px;
-        height: 250px;
-    }
-    
-
-    .social i{
-        margin: 0px 10px;
-        font-size: 22px;
-    }
-    footer img{
-        width: 70px;
-    }
 
 }
-@media (min-width: 909px) and (max-width :1075px) {
 
-    .posts{
+@media (min-width: 901px) and (max-width :1075px) {
+    .post-countainer{
         display: grid;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr 1fr ;
         gap: 50px;
-        margin: 30px 100px;
-
-    }
-    
-    .posts .contant h2{
-        color: var(--green);
-        font-weight: 700;
-        font-size: 20px;
-    }
-    
-    .post1{
-        width: 700px;
-        height: 250px;
-    }
-    .post2{
-        width: 700px;
-        height: 250px;
-    }
-    .post3{
-        width: 700px;
-        height: 250px;
-    }
-    .post4{
-        width: 700px;
-        height: 250px;
+        margin: 30px 20px;
     }
     
     .social{

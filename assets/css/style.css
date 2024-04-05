@@ -1,25 +1,46 @@
-@import url(post.css);
-@import url(home.css);
+
 
 :root{
     --green : #219150;
     --green2 :#22d66d;
-    --black : #161917;
-    --white : #F4F9FD;
-    --yellow :#d6b109;
+    --black : #1E1E1E;
+    --white : #FFFFFF;
+    --yellow :#F5D04E;
+    --gray:   #7F7F7F;
     --blue :  #4F80FF;
     --violet: #8154EF;
     --red :   #da3333;
 }
 
 *{
-    font-family: "Almarai", sans-serif;
+    font-family: "Figtree", sans-serif;
     padding: 0;
     margin: 0;
     
 }
 
+
+
 ::selection{
     background-color: var(--green2);
     color: var(--black);        
 }
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--yellow); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--green2); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--green); 
+  }
